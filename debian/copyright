@@ -1,0 +1,17 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: fontawesome
+Source: https://www.drupal.org/project/fontawesome
+
+Files: *
+Copyright: 2013, Rob Loach <robloach@gmail.com>
+           2013-2014, Inder Singh <goto.inder@gmail.com>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2014, Daniel Pocock http://danielpocock.com
+License: GPL-2+
+
+License: GPL-2
+ The full text of the GPL-2 license can be found in
+ /usr/share/common-licenses/GPL-2 on your Debian GNU/Linux system
+

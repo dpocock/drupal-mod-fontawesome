@@ -1,0 +1,10 @@
+
+It can be helpful to create tags in the Debian format, e.g:
+
+  git tag -m 'Upstream 7.x v1.0' upstream/1.0 7.x-1.0
+
+and then build the package:
+
+  git-buildpackage --git-upstream-branch=7.x-1.x --git-debian-branch=debian -rfakeroot 
+
+

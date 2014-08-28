@@ -1,0 +1,5 @@
+drupal7-mod-fontawesome (1.0-1) unstable; urgency=low
+
+  * Initial packaging (Closes: #759547)
+
+ -- Daniel Pocock <daniel@pocock.pro>  Thu, 28 Aug 2014 13:26:17 +0200

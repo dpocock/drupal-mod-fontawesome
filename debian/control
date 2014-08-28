@@ -1,0 +1,24 @@
+Source: drupal7-mod-fontawesome
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Daniel Pocock <daniel@pocock.pro>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://www.drupal.org/project/fontawesome
+Vcs-Browser: https://github.com/dpocock/drupal-mod-fontawesome
+Vcs-Git: https://github.com/dpocock/drupal-mod-fontawesome
+
+Package: drupal7-mod-fontawesome
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, fonts-font-awesome, drupal7-mod-libraries
+Recommends: javascript-common
+Description: iconic font designed for Twitter Bootstrap (Drupal module)
+ The font contains about 249 various icon glyphs. Glyphs are designed
+ as scalable vector graphics hence display very well at any screen
+ size. This font was basically designed to be used with the Twitter
+ bootstrap  library but can be used in other places also.
+ .
+ This package provides the CSS library as a module for use in Drupal sites.
+
